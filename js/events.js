@@ -20,12 +20,8 @@ $(document).on('keydown', function(key) {
 
 function submitIt() {
   $("form").on("submit", function() {
-    if ($( "input:first" ).val() === "correct") {
       alert("Your form is going to be submitted now");
       return;
-    }
-    alert("you entered the wrong value");
-    return;
   });
 };
 
