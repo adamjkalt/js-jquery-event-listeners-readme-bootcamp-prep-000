@@ -1,8 +1,6 @@
-function getIt(){
-$('p').on("click", function(){
+$('p').on("click", function(getIt){
   console.log ("Hey!")
-})
-};
+});
 
 function frameIt() {
 
