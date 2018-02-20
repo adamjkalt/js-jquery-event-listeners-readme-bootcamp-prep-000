@@ -13,7 +13,7 @@ tasty
 function pressIt() {
 $(document).on('keydown', function(key) {
   if(key.which == 71){
-      alert('g was pressed');
+      alert('G was pressed');
   }
 })
 };
@@ -31,7 +31,7 @@ function submitIt() {
 
 $(document).ready(function(){
 return getIt
-return
-return
-return
+return frameIt
+return pressIt
+return submitIt
 });
