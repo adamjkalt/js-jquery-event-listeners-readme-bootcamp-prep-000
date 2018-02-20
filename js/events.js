@@ -6,14 +6,14 @@ $('p').on("click", function(){
 
 function frameIt() {
 $('img').on('load', function(){
-  //actions you want to happen
+tasty
 })
 };
 
 function pressIt() {
 $(document).on('keydown', function(key) {
-  if(key.which == 83){
-      alert('s was pressed');
+  if(key.which == 71){
+      alert('g was pressed');
   }
 })
 };
